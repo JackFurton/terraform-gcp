@@ -45,7 +45,7 @@ graph TB
 | Phase | Description | Status |
 |-------|-------------|--------|
 | [01-networking](phases/01-networking/) | VPC, subnets, firewall rules, Cloud NAT | Applied |
-| [02-compute](phases/02-compute/) | Compute Engine + custom service account | Pending |
+| [02-compute](phases/02-compute/) | Compute Engine + custom service account | Applied |
 | [03-database](phases/03-database/) | Cloud SQL + private VPC peering | Pending |
 | [04-gke](phases/04-gke/) | Private GKE cluster + Workload Identity | Pending |
 | [05-modules](phases/05-modules/) | Refactor into reusable modules | Pending |
